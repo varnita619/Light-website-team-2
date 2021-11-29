@@ -1,0 +1,467 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Light
+    meta(content='width=device-width, initial-scale=1.0', name='viewport')
+    meta(content='', name='keywords')
+    meta(content='', name='description')
+    // Favicons
+    link(href='img/favicon.png', rel='icon')
+    link(href='img/apple-touch-icon.png', rel='apple-touch-icon')
+    // Google Fonts
+    link(href='https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700', rel='stylesheet')
+    // Bootstrap CSS File
+    link(href='lib/bootstrap/css/bootstrap.min.css', rel='stylesheet')
+    // Libraries CSS Files
+    link(href='lib/font-awesome/css/font-awesome.min.css', rel='stylesheet')
+    link(href='lib/animate/animate.min.css', rel='stylesheet')
+    link(href='lib/ionicons/css/ionicons.min.css', rel='stylesheet')
+    link(href='lib/owlcarousel/assets/owl.carousel.min.css', rel='stylesheet')
+    link(href='lib/lightbox/css/lightbox.min.css', rel='stylesheet')
+    // Main Stylesheet File
+    link(href='css/style.css', rel='stylesheet')
+  body
+    //
+      ==========================
+      Intro Section
+      ============================
+    section(style='background-color: black;')
+      //
+        <div class="intro-container">
+        <div id="introCarousel" class="carousel  slide carousel-fade" data-ride="carousel">
+        <ol class="carousel-indicators"></ol>
+        <div class="carousel-inner" role="listbox">
+        <div class="carousel-item active">
+        <div class="carousel-background"><img src="img/homepage/1.jpg" alt=""></div>
+        <div class="carousel-container">
+        <div class="carousel-content">
+        <a href="#featured-services" class="btn-get-started scrollto">Donate Now</a>
+        </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <div class="carousel-background"><img src="img/homepage/2.jpg" alt=""></div>
+        <div class="carousel-container">
+        <div class="carousel-content">
+        <a href="#featured-services" class="btn-get-started scrollto">Donate Now</a>
+        </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <div class="carousel-background"><img src="img/homepage/3.jpg" alt=""></div>
+        <div class="carousel-container">
+        <div class="carousel-content">
+        <a href="#featured-services" class="btn-get-started scrollto">Donate Now</a>
+        </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <div class="carousel-background"><img src="img/homepage/map.jpg" alt=""></div>
+        <div class="carousel-container">
+        <div class="carousel-content">
+        <a href="#featured-services" class="btn-get-started scrollto">Donate Now</a>
+        </div>
+        </div>
+        </div>
+        <div class="carousel-item">
+        <div class="carousel-background"><img src="img/homepage/map2.jpg" alt=""></div>
+        <div class="carousel-container">
+        <div class="carousel-content">
+        <a href="#featured-services" class="btn-get-started scrollto">Donate Now</a>
+        </div>
+        </div>
+        </div>
+        </div>
+        <a class="carousel-control-prev" href="#introCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon ion-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#introCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon ion-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+        </a>
+        </div>
+        </div>
+      .container-fluid
+        center
+          a#play-video.video-play-button(href='#')
+            span
+          video#intro-video
+            source(src='Placeholder Video.mp4')
+    // #intro
+    main#main
+      //
+        ==========================
+        Featured Services Section
+        ============================
+      //
+        <section id="featured-services">
+        <div class="container">
+        <div class="row">
+        <div class="col-lg-4 box">
+        <i class="ion-ios-bookmarks-outline"></i>
+        <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
+        <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+        </div>
+        <div class="col-lg-4 box box-bg">
+        <i class="ion-ios-stopwatch-outline"></i>
+        <h4 class="title"><a href="">Dolor Sitema</a></h4>
+        <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+        </div>
+        <div class="col-lg-4 box">
+        <i class="ion-ios-heart-outline"></i>
+        <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+        <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+        </div>
+        </div>
+        </div>
+        </section>
+      // #featured-services
+      //
+        ==========================
+        About Us Section
+        ============================
+      section#about
+        .container
+          header.section-header
+            h3 About Us
+            p.text-center.text-dark
+              | Back in 2004, Our Founder and President Mr. Mrinal Kanti Bhanja noticed a
+              b very common problem
+              | : “About how the youth of our country are ignorant of the social problems that exist in our country”. He
+              | 		    identified
+              b two major bottlenecks
+              |  about why youth lacked social commitment:
+            p.text-center.text-dark
+              b Firstly
+              | , the social problems aren’t portrayed well in the
+              b bookish knowledge
+              |  which people gain through the curriculum and hence are generally unaware of the real scenario at the grass-root level.
+              |             It can only be understood by real-life experiences by encountering these problems.
+              a(href='about.html') See More...
+          .row.about-cols
+            .col-md-4.wow.fadeInUp.d-flex
+              .about-col
+                .img
+                  center
+                    img.img-fluid(src='img/aboutUS/mission11.png', alt='')
+                  .icon
+                    i.ion-ios-speedometer-outline
+                h2.title
+                  a(href='#') Our Mission
+                p
+                  | LiGHT exist to deliver Gopali Youth Welfare Society's learnings, expertise & experience to involve Youth in social problem solving to the youth throughout the nation.
+            .col-md-4.wow.fadeInUp.d-flex(data-wow-delay='0.1s')
+              .about-col
+                .img
+                  img.img-fluid(src='img/about-plan.jpg', alt='')
+                  .icon
+                    i.ion-ios-list-outline
+                h2.title
+                  a(href='#') Our Plan
+                p
+                  | Sed ut perspiciatis unde omnis iste natus error sit voluptatem  doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+            .col-md-4.wow.fadeInUp.d-flex(data-wow-delay='0.2s')
+              .about-col
+                .img
+                  center
+                    img.img-fluid(src='img/aboutUS/vision11.png', alt='')
+                  .icon
+                    i.ion-ios-eye-outline
+                h2.title
+                  a(href='#') Our Vision
+                p
+                  | We aim to build a network of autonomous student-run centers across India, to provide them with a platform for ensuring the fulfillment of Sustainable Development Goals for the weaker sections of the Society.
+      // #about
+      //
+        ==========================
+        Founder's Message
+        ============================
+      //
+        <section id="services" class="section-bg">
+        <div class="container">
+        <header class="section-header">
+        <h3>FOUNDER'S MESSAGE</h3>
+        </header>
+        <div class="row top">
+        <div class="col-md-2">
+        </div>
+        <blockquote id="message" class="col-md-6 blockquote text-left">
+        <br><br>
+        Gopali Youth Welfare Society (GYWS) was established with the objectives of making people aware of problems faced by modern society. It also aims at helping people's social, economic and cultural development and encouraging them to find out solutions to there problems based on the locally available resources.
+        <br>
+        <footer class="blockquote-footer text-right">-Mr. Mrinal Kanti Bhanja, Founder, GYWS</footer>
+        </blockquote>
+        <div class="col-md-auto my-auto text-center"><img src="img/homepage/f.jpg" style="margin-top:14%;width:260px;margin-right:15px;margin-bottom: 20px"  class="b7 rounded-circle img-fluid">
+        </div>
+        </div>
+        </div>
+        </section><!-- #Founder's Message
+      //
+        ==========================
+        Our Reach
+        ============================
+      section#reach
+        .container
+          br
+          br
+          .row
+            .col-md-12
+              header.section-header
+                h3 OUR REACH
+          br
+          br
+          .container-fluid
+            .row.justify-content-center
+              .col-lg-3.col-md-4
+                .info(style='color:black;')
+                  h1.counter.pt-2(style='font-weight: 600;') 14
+                  h2 Centres
+              .col-lg-3.col-md-4
+                .info(style='color:black;')
+                  h1.counter.pt-2(style='font-weight: 600;') 12
+                  h2 States
+              .col-lg-3.col-md-4
+                .info(style='color:black;')
+                  h1.counter.pt-2(style='font-weight: 600;') 161
+                  h2 Active Members
+            br
+        .container
+          .info-text
+            p
+              | Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        br
+        br
+        section#Register.section-bg
+          br
+          br
+          br
+          .container
+            header.section-header.mb-5
+              h3 our network
+            center
+              div(style='font-size: 17px; margin-bottom: 40px;')
+                | Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi quod suscipit ut earum fugiat provident culpa aliquam sapiente sequi eius eaque, optio temporibus iure, aspernatur delectus vitae nisi laboriosam explicabo.
+            center
+              .row
+                .col-lg-6.centered
+                  h2#serif(style='font-size: 35px;color:black;font-family: Trebuchet MS')
+                    strong Who can join us?
+                  .row.justify-content-center
+                    .col-4
+                      img.img-fluid.mt-2.join-us-img(src='img/network/socialworker.png', alt='')
+                      .join-us-text Social Worker
+                    .col-4
+                      img.img-fluid.mt-2.join-us-img(src='img/network/student.png', alt='')
+                      .join-us-text College Student
+                    .col-4
+                      img.img-fluid.mt-2.join-us-img(src='img/network/collegeprofessor.png', alt='')
+                      .join-us-text College Professor
+                  a.btn-get-started.scrollto.mb-5(href='networkpage.html')  Learn More
+                .col-lg-1
+                .col-lg-5
+                  h2#serif(style='font-size: 35px;color:black;font-family: Trebuchet MS')
+                    strong  Register Your College
+                  br
+                  p(style='font-size:17px ')
+                    | Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi aspernatur explicabo possimus repellendus laborum harum illo voluptatibus accusamus perferendis soluta nesciunt.
+                  // Trigger/Open The Modal
+                  a.btn-get-started.scrollto.mt-2(data-toggle='modal', data-target='#myModal', style='cursor: pointer;')  Register
+                  // Modal
+                  #myModal.modal.fade(role='dialog')
+                    .modal-dialog
+                      // Modal content
+                      .modal-content
+                        .modal-header
+                          h4.modal-title Modal Header
+                          button.close(type='button', data-dismiss='modal') ×
+                        .modal-body
+                          p Some text in the modal.
+                        .modal-footer
+                          button.btn.btn-default(type='button', data-dismiss='modal') Close
+                  br
+                  br
+            // row
+        section#testimonials
+          center
+            .container
+              header.section-header
+                h3 Our Team
+              .row.mt-4.justify-content-center
+                .col-lg-4.col-md-4.pl-4.pr-4
+                  .member-card.bg-light.p-3
+                    img(src='img/f.jpg')
+                    br
+                    .member-name(style='font-size: 1.9em;') Mrinal K. Bhanja
+                    .member-post(style='font-size: 1.3em;') Founder, GYWS
+                    br
+                    .member-social-strip
+                      a(href='#')
+                        i.fa.fa-envelope
+                      a(href='#')
+                        i.fa.fa-facebook
+                      a(href='#')
+                        i.fa.fa-linkedin
+                .col-lg-4.col-md-4.pl-4.pr-4
+                  .member-card.bg-light.p-3
+                    img(src='img/prerit.jpg')
+                    br
+                    .member-name(style='font-size: 1.9em;') Prerit Jain
+                    .member-post(style='font-size: 1.3em;') CEO, LiGHT
+                    br
+                    .member-social-strip
+                      a(href='mailto:preritjain1234@gmail.com')
+                        i.fa.fa-envelope
+                      a(href='https://www.facebook.com/prerit.jain.7')
+                        i.fa.fa-facebook
+                      a(href='https://www.linkedin.com/in/prerit-jain-iit-kgp/')
+                        i.fa.fa-linkedin
+                .col-lg-4.col-md-4.pl-4.pr-4
+                  .member-card.bg-light.p-3(style='height: 360px;')
+                    a(href='members.html')
+                      img(src='img/seeMoreTeam.png', style='margin-top: 30px;')
+                      br
+                      .member-name(style='font-size: 2em;') See More
+              //
+                <div class="owl-carousel testimonials-carousel">
+                <div class="testimonial-item">
+                <img src="img/homepage/1.jpg" class="testimonial-img" alt="">
+                <h3>Saul Goodman</h3>
+                <h4>Ceo &amp; Founder</h4>
+                <p>
+                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                </p>
+                </div>
+                <div class="testimonial-item">
+                <img src="img/homepage/2.jpg" class="testimonial-img" alt="">
+                <h3>Sara Wilsson</h3>
+                <h4>Designer</h4>
+                <p>
+                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                </p>
+                </div>
+                <div class="testimonial-item">
+                <img src="img/homepage/3.jpg" class="testimonial-img" alt="">
+                <h3>Jena Karlis</h3>
+                <h4>Store Owner</h4>
+                <p>
+                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                </p>
+                </div>
+                <div class="testimonial-item">
+                <img src="img/homepage/map.jpg" class="testimonial-img" alt="">
+                <h3>Matt Brandon</h3>
+                <h4>Freelancer</h4>
+                <p>
+                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                </p>
+                </div>
+                <div class="testimonial-item">
+                <img src="img/homepage/map2.jpg" class="testimonial-img" alt="">
+                <h3>John Larson</h3>
+                <h4>Entrepreneur</h4>
+                <p>
+                <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+                Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+                </p>
+                </div>
+                </div>
+        // #testimonials
+        //
+          ==========================
+          Contact Section
+          ============================
+        section#contact.section-bg.wow.fadeInUp
+          .container
+            .section-header
+              h3 Contact Us
+            .row.contact-info
+              .col-md-4
+                .contact-address
+                  i.ion-ios-location-outline
+                  h3 Address
+                  address
+                    | Gopali (No-shooting Area),
+                    br
+                    |               P.O. – Salua, Dist. – Paschim Medinipur,
+                    br
+                    |               West Bengal, Pin-721145.
+                    br
+              .col-md-4
+                .contact-phone
+                  i.ion-ios-telephone-outline
+                  h3 Phone Number
+                  p
+                    a(href='tel:+917566782230', style='color:green;') +91 756-678-2230
+                    br
+                    | Sumit Sen
+                    br
+                    | (LIGHT Head)
+              .col-md-4
+                .contact-email
+                  i.ion-ios-email-outline
+                  h3 Email
+                  p
+                    a(href='light.gyws@gmail.com', style='color:green;') light.gyws@gmail.com
+            .form
+              #sendmessage Your message has been sent. Thank you!
+              #errormessage
+              form.contactForm(action='', method='post', role='form')
+                .form-row
+                  .form-group.col-md-6
+                    input#name.form-control(type='text', name='name', placeholder='Your Name', data-rule='minlen:4', data-msg='Please enter at least 4 chars')
+                    .validation
+                  .form-group.col-md-6
+                    input#email.form-control(type='email', name='email', placeholder='Your Email', data-rule='email', data-msg='Please enter a valid email')
+                    .validation
+                .form-group
+                  input#subject.form-control(type='text', name='subject', placeholder='Subject', data-rule='minlen:4', data-msg='Please enter at least 8 chars of subject')
+                  .validation
+                .form-group
+                  textarea.form-control(name='message', rows='5', data-rule='required', data-msg='Please write something for us', placeholder='Message')
+                  .validation
+                .text-center
+                  button(type='submit') Send Message
+        // #contact
+        //
+          ==========================
+          Footer
+          ============================
+        // #footer
+        a.back-to-top(href='#')
+          i.fa.fa-chevron-up
+        // Uncomment below i you want to use a preloader
+        // <div id="preloader"></div>
+        // JavaScript Libraries
+        script(src='lib/jquery/jquery.min.js')
+        script(src='lib/jquery/jquery-migrate.min.js')
+        script(src='lib/bootstrap/js/bootstrap.bundle.min.js')
+        script(src='lib/easing/easing.min.js')
+        script(src='lib/superfish/hoverIntent.js')
+        script(src='lib/superfish/superfish.min.js')
+        script(src='lib/wow/wow.min.js')
+        script(src='lib/waypoints/waypoints.min.js')
+        script(src='lib/counterup/counterup.min.js')
+        script(src='lib/owlcarousel/owl.carousel.min.js')
+        script(src='lib/isotope/isotope.pkgd.min.js')
+        script(src='lib/lightbox/js/lightbox.min.js')
+        script(src='lib/touchSwipe/jquery.touchSwipe.min.js')
+        // Contact Form JavaScript File
+        script(src='contactform/contactform.js')
+        // Template Main Javascript File
+        script(src='js/main.js')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js')
+        script(src='https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js')
+        script(src='networkJS/jquery.counterup.min.js')
+        script(src='js/centermain.js', type='text/javascript')
+        script(src='js/index.js', type='text/javascript')
