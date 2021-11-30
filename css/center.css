@@ -16,14 +16,14 @@ body {
 }
 
 a {
-  color: rgb(0,228,105);
+  color: #ffc000ff;
   transition: 0.5s;
 }
 
 a:hover,
 a:active,
 a:focus {
-  color:rgb(0,228,105);
+  color:#ffc000ff;
   outline: none;
   text-decoration: none;
 }
@@ -71,7 +71,7 @@ h6 {
 .back-to-top {
     position: fixed;
     display: none;
-    background: rgb(0,228,105);
+    background: #ffc000ff;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -88,13 +88,13 @@ h6 {
   }
   
   .back-to-top:focus {
-    background:rgb(0,228,105);
+    background:#ffc000ff;
     color: #fff;
     outline: none;
   }
   
   .back-to-top:hover {
-    background:rgb(0,228,105);
+    background:#ffc000ff;
     color: #fff;
   }
   
@@ -113,7 +113,7 @@ h6 {
     display: block;
     width: 60px;
     height: 5px;
-    background:rgb(0,228,105);
+    background:#ffc000ff;
     bottom: 0;
     left: calc(50% - 25px);
   }*/
@@ -181,7 +181,7 @@ h6 {
 }
 
 #hotels a:hover {
-  color: rgb(0,228,105);
+  color: #ffc000ff;
 }
 
 #hotels .stars {
@@ -338,7 +338,7 @@ svg {
     font-size: 1rem;
     white-space: normal;
     color: white;
-    background: #18d26e;
+    background: #ffc000ff;
 }
 
 .timeline ol li div::before {
@@ -359,7 +359,7 @@ svg {
 .timeline ol li:nth-child(odd) div::before {
     top: 100%;
     border-width: 8px 8px 0 0;
-    border-color: #18d26e transparent transparent transparent;
+    border-color: #ffc000ff transparent transparent transparent;
 }
 
 .timeline ol li:nth-child(even) div {
@@ -369,7 +369,7 @@ svg {
 .timeline ol li:nth-child(even) div::before {
     top: -8px;
     border-width: 8px 0 0 8px;
-    border-color: transparent transparent transparent #18d26e;
+    border-color: transparent transparent transparent #ffc000ff;
 }
 
 .timeline time {
@@ -500,14 +500,14 @@ svg {
     cursor: pointer;
     padding: 5px 8px;
     font-size: 20px;
-    border: solid 1px #18d26e;
+    border: solid 1px #ffc000ff;
     color: black;
     background-color: white;
     border-radius: 5px;
 }
 
 .button:hover {
-    background-color: #18d26e;
+    background-color: #ffc000ff;
     color: white;
 }
 
